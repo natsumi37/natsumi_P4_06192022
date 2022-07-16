@@ -278,13 +278,9 @@ a:hover {
 }
 
 .row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#bloc-2-services p {
-    font-size: 11px;
 }
 
 .navbar {
@@ -325,7 +321,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -526,7 +522,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -639,19 +635,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
+body {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -676,18 +663,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 12px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -699,35 +677,49 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+p, label {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    font-weight: 900;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #364577;
     line-height: 1.4em;
 }
 
+h2.mg-md.text-center.contrast {
+    color: #FFFFFF;
+}
+
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+.quote {
+    font-style: italic;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -763,7 +755,6 @@ h4 {
 }
 
 .service-header {
-    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -780,17 +771,13 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #364577!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #fc844d;
     color: #FFFFFF!important;
 }
 
@@ -807,12 +794,34 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #fc844d;
 }
 
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+/* ========== footer ========== */
+
+.row.row-no-gutters.social {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 10px;
+    gap: 20px;
+}
+
+.col-sm-3 {
+    text-align: center;
+}
+
+.col-sm-4 {
+    font-size: 16px;
+}
+
+.socialmedia_icon {
+    max-width: 400px;
 }
 
 .bg-dots-bg {
@@ -824,11 +833,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made\ sign-blue.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange.jpg");
 }
 
 @media (max-width: 1024px) {
