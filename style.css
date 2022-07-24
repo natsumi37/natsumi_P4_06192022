@@ -658,22 +658,27 @@ body {
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin-top: 22px!important;
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 20px!important;
+    font-weight: 900!important;
 }
 
 p, label {
     font-size: 16px;
 }
 
+.row {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
 h1 {
-    font-family: "Open Sans";
-    color: #FFFFFF;
-    font-weight: 900;
+    font-family: "Open Sans"!important;
+    color: #FFFFFF!important;
+    font-weight: 900!important;
     text-align: center;
 }
 
@@ -685,19 +690,19 @@ h1 {
 
 h2 {
     font-size: 24px;
-    font-weight: 700;
-    color: #364577;
+    font-weight: 700!important;
+    color: #364577!important;
     line-height: 1.4em;
 }
 
 h2.mg-md.text-center.contrast {
-    color: #FFFFFF;
+    color: #FFFFFF!important;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 16px!important;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700!important;
     color: #333333!important;
 }
 
