@@ -3,7 +3,7 @@ Student project at OpenClassrooms<br>
 http://natsumi37.github.io/natsumi_P4_06192022/
 
 ✅What I did<br>
-Inspecting SEO and accessibility issues using Google Lighthouse and optimize an existing website
+Inspect SEO and accessibility issues using Google Lighthouse and optimize an existing website
 
 ✅Project Summary<br>
 Project #4: Optimize an Existing Website<br>
